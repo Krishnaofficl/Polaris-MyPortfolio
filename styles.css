@@ -1,12 +1,18 @@
 body{
     background-color: bisque;
 }
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: beige;
+#name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: beige;font-style: italic;
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 p{
     font-family: 'Courier New', Courier, monospace;
+}
+table {
+    border-collapse: collapse;   /* 👈 key line */
+}
+table, th, td {
+    border: 1px solid black;
 }
